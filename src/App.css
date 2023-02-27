@@ -1,3 +1,35 @@
+.appContainer {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.tooltip {
+  border-radius: 5px;
+  background: #26313c9e;
+  color: #fff;
+  padding: 8px 20px;
+  box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.tooltipDate {
+  padding-bottom: 5px;
+  font-weight: bolder;
+}
+
+.price {
+  color: #ffea0095;
+}
+
+
+
+
+
+
 .App {
   text-align: center;
 }
